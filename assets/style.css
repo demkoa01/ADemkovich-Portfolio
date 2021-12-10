@@ -69,7 +69,9 @@ header nav ul li a:hover {
 /* hero style section */
 
 /* about me stlye section */
-
+.allison img {
+    width: 100%;
+}
 /* my work style section */
 
 /* resume style section */
