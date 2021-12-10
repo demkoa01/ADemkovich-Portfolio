@@ -66,3 +66,47 @@ header nav ul li a:hover {
     text-shadow: none;
 }
 
+/* hero style section */
+
+/* about me stlye section */
+
+/* my work style section */
+
+/* resume style section */
+
+/* contact me stlye section - forms */
+.contact-form input, .contact-form textarea {
+    border: 1px solid var(--secondary-color);
+    display: block;
+    padding: 7px 15px;
+    font-size: 18px;
+    color: var(--tertiatry-color);
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    background-color: rgba(0,0,0,0.5);
+}
+
+.contact-form input, .contact-form textarea:focus {
+    background-color: silver;
+    outline: none;
+}
+
+.contact-form button {
+    width: 100%;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--tertiatry-color);
+    text-align: center;
+    padding: 0 15px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.contact-form button:hover {
+    color: var(--primary-color);
+    background-color: white;
+}
+
+/* footer style section */
