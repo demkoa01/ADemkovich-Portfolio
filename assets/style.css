@@ -79,15 +79,17 @@ header nav ul li a:hover {
 }
 
 .bio {
-    text-align: right;
+    border: 3px solid var(--primary-color);
+    border-radius: 15px;
+    margin: 10px 0 10px 150px;
 }
 /* my work style section */
-a {
+.work a {
     position: relative;
     display: inline-block;
 }
 
-a span {
+.work a span {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -101,10 +103,25 @@ a span {
     font-weight: bold;
 }
 
+.work a:hover {
+    opacity: 0.55;
+    transition: .5s ease;;
+}
 
 /* resume style section */
 
 /* contact me stlye section - forms */
+.contact h3 {
+    text-align: center;
+}
+
+.contact-form {
+    border: 3px solid var(--secondary-color);
+    padding: 20px;
+    width: 40%;
+    margin: 0 auto;
+    border-radius:  15px;
+}
 .contact-form input, .contact-form textarea {
     border: 1px solid var(--secondary-color);
     display: block;
