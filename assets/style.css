@@ -76,7 +76,7 @@ header nav ul li a:hover {
 .allison img {
     height: auto;
     width: 200px;
-    float: left;
+    align-items: left;
 }
 
 .bio {
@@ -84,6 +84,7 @@ header nav ul li a:hover {
     border-radius: 15px;
     margin: 10px 0 10px 150px;
 }
+
 /* my work style section */
 .work a {
     position: relative;
@@ -199,6 +200,16 @@ footer a {
         text-align: center;
         width: 100%;
     }
+}
 
-    
+/* Media query for tablets & smaller */
+@media screen and (max-width: 780px) {
+    section {
+        padding: 30px 15px;
+    }
+}
+
+/* Media query for mobile phones & smller */
+@media screen and (max-width: 575px) {
+
 }
