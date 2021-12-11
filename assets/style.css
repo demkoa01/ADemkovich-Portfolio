@@ -70,7 +70,7 @@ header nav ul li a:hover {
 
 /* Overall page styles */
 .section-title {
-    font-size: 40px;
+    font-size: 36px;
     color: var(--secondary-color);
     padding-bottom: 20px;
     text-align: left;
@@ -117,29 +117,22 @@ header nav ul li a:hover {
 }
 
 .project {
-    /* border-style: solid; */
-    border-width: 1px;
-    border-radius: 10px;
     padding: 10px;
     flex: 0 0 400px;
 }
 
 .project header {
-   padding: 20px; 
+   padding: 20px;
+   font-weight: bolder; 
 }
 
-.project img {
-    width:100%;
-}
+.project a img {
+    width: 100%;
+} 
 
 .project a {
     display: inline-block;
     border: 5px solid var(--primary-color);
-}
-
-.project a img {
-    width: 500px;
-    height: auto;
 }
 
 .project a:hover {
@@ -147,8 +140,37 @@ header nav ul li a:hover {
     transition: .5s ease;;
 }
 
+/* make first link image larger */
+.first {
+    padding: 10px;
+    flex: 0 0 400px;
+}
+
+.first header {
+    padding: 20px;
+    font-weight: bolder; 
+}
+
+.first a img{
+    width: 100%;
+}
+
+.first a {
+    display: inline-block;
+    border: 5px solid var(--primary-color);
+}
+
+.first a:hover {
+    opacity: 0.55;
+    transition: .5s ease; 
+}
 
 /* resume style section */
+.resume iframe {
+    width: 1000px;
+    height: 500px;
+    margin: 0 auto;
+}
 
 /* contact me stlye section - forms */
 .contact h3 {
