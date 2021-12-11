@@ -65,10 +65,11 @@ header nav ul li a:hover {
 }
 
 /* hero style section */
-.hero {
+.hero h2 {
     font-weight: lighter;
+    font-style: italic;
     text-align: right;
-    font-size: 20px;
+    font-size: 36px;
 }
 
 /* about me stlye section */
@@ -169,4 +170,35 @@ footer {
 footer a {
     text-decoration: none;
     color: var(--secondary-color);
+}
+
+/* Media query for smaller desktop screens & smaller */
+@media screen and (max-width:900px) {
+    header {
+    padding-bottom: 0;
+    justify-content: center;
+    position: relative;
+    }
+
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    footer {
+        text-align: center;
+        width: 100%;
+    }
+
+    
 }
